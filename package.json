@@ -1,6 +1,6 @@
 {
   "name": "claude-pulse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time session dashboard for Claude Code — cost tracking, analytics, and smart alerts",
   "main": "dist/index.js",
   "type": "module",
