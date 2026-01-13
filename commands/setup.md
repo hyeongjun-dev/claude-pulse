@@ -6,6 +6,24 @@ allowed-tools: Bash, Read, Edit, AskUserQuestion
 
 **Note**: Placeholders like `{RUNTIME_PATH}`, `{SOURCE}`, and `{GENERATED_COMMAND}` should be substituted with actual detected values.
 
+## Step 0: Enable Plugin
+
+Check if claude-pulse is enabled in `~/.claude/settings.json`:
+
+```bash
+grep -o '"claude-pulse@claude-pulse": *[^,}]*' ~/.claude/settings.json
+```
+
+If the result shows `false` or no result, use the Edit tool to set it to `true` in `enabledPlugins`:
+
+```json
+{
+  "enabledPlugins": {
+    "claude-pulse@claude-pulse": true
+  }
+}
+```
+
 ## Step 1: Detect Platform & Runtime
 
 **macOS/Linux** (if `uname -s` returns "Darwin", "Linux", or a MINGW*/MSYS*/CYGWIN* variant):
