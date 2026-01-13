@@ -1,0 +1,20 @@
+{
+  "name": "claude-pulse",
+  "description": "Real-time session dashboard for Claude Code — cost tracking, analytics, and smart alerts",
+  "version": "1.0.0",
+  "author": {
+    "name": "Leo (Hyeongjun Yu)",
+    "url": "https://github.com/hyeongjun-dev"
+  },
+  "repository": "https://github.com/hyeongjun-dev/claude-pulse",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "statusline",
+    "dashboard",
+    "cost-tracking",
+    "analytics",
+    "monitoring"
+  ],
+  "claude_code_version": ">=1.0.80"
+}

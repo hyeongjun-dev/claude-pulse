@@ -1,0 +1,13 @@
+{
+  "statusline": {
+    "command": "node",
+    "args": ["dist/index.js"],
+    "timeout": 5000
+  },
+  "commands": [
+    "commands/claude-pulse.md",
+    "commands/setup.md",
+    "commands/configure.md",
+    "commands/stats.md"
+  ]
+}

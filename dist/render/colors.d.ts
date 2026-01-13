@@ -1,0 +1,28 @@
+export declare const RESET = "\u001B[0m";
+export declare const BOLD = "\u001B[1m";
+export declare const DIM = "\u001B[2m";
+export declare const FG_RED = "\u001B[31m";
+export declare const FG_GREEN = "\u001B[32m";
+export declare const FG_YELLOW = "\u001B[33m";
+export declare const FG_BLUE = "\u001B[34m";
+export declare const FG_MAGENTA = "\u001B[35m";
+export declare const FG_CYAN = "\u001B[36m";
+export declare const FG_WHITE = "\u001B[37m";
+export declare const FG_GRAY = "\u001B[90m";
+export declare const BG_RED = "\u001B[41m";
+export declare const BG_GREEN = "\u001B[42m";
+export declare const BG_YELLOW = "\u001B[43m";
+export declare function red(text: string): string;
+export declare function green(text: string): string;
+export declare function yellow(text: string): string;
+export declare function blue(text: string): string;
+export declare function magenta(text: string): string;
+export declare function cyan(text: string): string;
+export declare function dim(text: string): string;
+export declare function bold(text: string): string;
+export declare function gray(text: string): string;
+export declare function getContextColor(percent: number): string;
+export declare function coloredBar(percent: number, width?: number): string;
+export declare function alertColor(level: 'warning' | 'critical' | 'danger'): string;
+export declare function getCostColor(cost: number): string;
+//# sourceMappingURL=colors.d.ts.map

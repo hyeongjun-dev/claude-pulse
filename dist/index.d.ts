@@ -1,0 +1,27 @@
+import { readStdin } from './stdin.js';
+import { parseTranscript } from './transcript.js';
+import { render } from './render/index.js';
+import { countConfigs } from './config-reader.js';
+import { getGitStatus } from './git.js';
+import { getUsage } from './usage-api.js';
+import { loadConfig } from './config.js';
+import { calculateCost } from './cost-tracker.js';
+import { calculateStats } from './session-stats.js';
+import { checkContextAlert } from './context-alert.js';
+export type MainDeps = {
+    readStdin: typeof readStdin;
+    parseTranscript: typeof parseTranscript;
+    countConfigs: typeof countConfigs;
+    getGitStatus: typeof getGitStatus;
+    getUsage: typeof getUsage;
+    loadConfig: typeof loadConfig;
+    calculateCost: typeof calculateCost;
+    calculateStats: typeof calculateStats;
+    checkContextAlert: typeof checkContextAlert;
+    render: typeof render;
+    now: () => number;
+    log: (...args: unknown[]) => void;
+};
+export declare function main(overrides?: Partial<MainDeps>): Promise<void>;
+export declare function formatSessionDuration(sessionStart?: Date, now?: () => number): string;
+//# sourceMappingURL=index.d.ts.map

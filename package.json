@@ -1,0 +1,32 @@
+{
+  "name": "claude-pulse",
+  "version": "1.0.0",
+  "description": "Real-time session dashboard for Claude Code — cost tracking, analytics, and smart alerts",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "claude-code",
+    "statusline",
+    "dashboard",
+    "cost-tracking",
+    "analytics"
+  ],
+  "author": "Leo (Hyeongjun Yu) <hyeongjun.dev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyeongjun-dev/claude-pulse"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
