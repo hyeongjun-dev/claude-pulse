@@ -1,13 +1,23 @@
 {
-  "statusline": {
-    "command": "node",
-    "args": ["dist/index.js"],
-    "timeout": 5000
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-pulse-marketplace",
+  "description": "Claude Pulse - Real-time session dashboard for Claude Code",
+  "owner": {
+    "name": "Leo (Hyeongjun Yu)",
+    "email": "hyeongjun.dev@gmail.com"
   },
-  "commands": [
-    "commands/claude-pulse.md",
-    "commands/setup.md",
-    "commands/configure.md",
-    "commands/stats.md"
+  "plugins": [
+    {
+      "name": "claude-pulse",
+      "description": "Real-time session dashboard for Claude Code — cost tracking, analytics, and smart alerts",
+      "version": "1.0.0",
+      "author": {
+        "name": "Leo (Hyeongjun Yu)",
+        "email": "hyeongjun.dev@gmail.com"
+      },
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://github.com/hyeongjun-dev/claude-pulse"
+    }
   ]
 }
