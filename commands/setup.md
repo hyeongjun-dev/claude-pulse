@@ -89,7 +89,7 @@ allowed-tools: Bash, Read, Edit, AskUserQuestion
 {GENERATED_COMMAND}
 ```
 
-Expected output: The command should output the HUD text (showing context %, costs, etc.) and exit cleanly.
+Expected output: The command should output the status line text (showing context %, costs, etc.) and exit cleanly.
 
 If it errors or hangs, troubleshoot before proceeding:
 - "Cannot find module": Plugin path is wrong
@@ -114,10 +114,10 @@ Updates are automatic - no need to re-run setup after plugin updates (the dynami
 
 Tell the user:
 1. Start a new Claude Code session (or restart current one)
-2. Look for the HUD appearing below the input field
-3. The HUD should show: context %, cost tracking, tool activity
+2. Look for the status line appearing below the input field
+3. The status line should show: context %, cost tracking, tool activity
 
-If the HUD doesn't appear:
+If the status line doesn't appear:
 - Check `~/.claude/settings.json` has the `statusLine` key
 - Run the command manually to see any errors
 - Ensure the plugin is installed: `ls ~/.claude/plugins/cache/claude-pulse/`
