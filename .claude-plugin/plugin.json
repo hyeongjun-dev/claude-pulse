@@ -15,6 +15,5 @@
     "cost-tracking",
     "analytics",
     "monitoring"
-  ],
-  "claude_code_version": ">=1.0.80"
+  ]
 }
