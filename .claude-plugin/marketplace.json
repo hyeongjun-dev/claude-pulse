@@ -10,12 +10,12 @@
     {
       "name": "claude-pulse",
       "description": "Real-time status line showing context usage, costs, active tools, and session analytics.",
-      "version": "1.0.8",
+      "version": "1.1.0",
       "author": {
         "name": "Leo (Hyeongjun Yu)",
         "email": "hyeongjun.leo@gmail.com"
       },
-      "source": "./",
+      "source": "./plugins/claude-pulse",
       "category": "monitoring",
       "homepage": "https://github.com/hyeongjun-dev/claude-pulse"
     }
