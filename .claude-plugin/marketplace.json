@@ -2,14 +2,19 @@
   "name": "claude-pulse",
   "owner": {
     "name": "Leo (Hyeongjun Yu)",
-    "url": "https://github.com/hyeongjun-dev"
+    "email": "hyeongjun.leo@gmail.com"
   },
-  "description": "Real-time session dashboard for Claude Code — cost tracking, analytics, and smart alerts",
+  "metadata": {
+    "description": "Real-time session dashboard for Claude Code — cost tracking, analytics, and smart alerts",
+    "version": "1.0.7"
+  },
   "plugins": [
     {
       "name": "claude-pulse",
       "source": "./",
-      "description": "Real-time session dashboard for Claude Code — cost tracking, analytics, and smart alerts"
+      "description": "Real-time status line showing context usage, costs, active tools, and session analytics.",
+      "category": "monitoring",
+      "tags": ["statusline", "monitoring", "cost-tracking", "analytics", "context"]
     }
   ]
 }
