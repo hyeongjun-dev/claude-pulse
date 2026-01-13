@@ -1,4 +1,5 @@
 ---
+name: setup
 description: Configure claude-pulse as your statusline
 allowed-tools: Bash, Read, Edit, AskUserQuestion
 ---

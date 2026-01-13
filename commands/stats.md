@@ -1,4 +1,5 @@
 ---
+name: stats
 description: View detailed session statistics
 ---
 

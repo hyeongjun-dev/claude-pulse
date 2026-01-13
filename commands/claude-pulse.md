@@ -1,4 +1,5 @@
 ---
+name: claude-pulse
 description: View real-time session statistics and cost tracking
 ---
 
