@@ -1,6 +1,6 @@
 ---
-name: configure
 description: Customize Claude Pulse display options
+allowed-tools: Read, Write, AskUserQuestion
 ---
 
 # Claude Pulse Configuration
